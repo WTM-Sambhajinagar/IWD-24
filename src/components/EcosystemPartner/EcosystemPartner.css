@@ -1,0 +1,43 @@
+.eco-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    
+}
+
+.eco-heading p{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 2rem;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+}
+
+.eco-logo{
+    width: 240px;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 725px) {
+    .eco-logo{
+        margin-bottom: 100px;
+    }
+    .eco-heading p{
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 2rem;
+        font-family: "Open Sans", sans-serif;
+        margin-top: 50px;
+    }
+
+}

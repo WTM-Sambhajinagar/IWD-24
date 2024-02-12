@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.text-class {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 2rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.head-text{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 70px;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+    color: white;
+}
+.theme-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 142px;
+    margin-right: 142px;
+    margin-top: 100px;
+    grid-gap: 12rem;
+    color: white;
+    
+  }
+.para-text{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+    color: rgb(202, 219, 221);
+    justify-content: center;
+}
+/* .border-box-class{
+    
+    margin: 10px;
+    border-radius: 3rem;
+    border: 1px solid grey;
+} */
+
+.border-box-class {
+  border-radius: 15px;
+  margin: 10px;
+  /* border: 2px solid transparent;
+  border-image: linear-gradient(to bottom, rgb(88, 192, 233),grey) ; */
+  /* background: linear-gradient(to bottom, #3498db, #414545); */
+  /* border-image-slice: 1;
+  border-radius: 30px 0 30px 30px; */
+  border-style: solid;
+  border-color: rgb(88, 192, 233) #4a8cded9 rgb(88, 192, 233) #4a8cded9 !important;
+  border-radius: 30px 120px 30px 30px;
+  overflow: hidden;
+  /* -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  background: white; */
+  /* background: linear-gradient(45deg, transparent 45px, black 0); */
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .theme-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 100px;
+        grid-gap: 3rem;
+        padding-right: 20px;
+        margin: 30px 40px;
+
+    }
+
+    .border-box-class{
+        width: 275px;
+        border-radius: 30px 160px 30px 30px;
+        justify-content: center; 
+        align-items: center;
+
+    }
+    .text-class{
+        font-size: 36px;
+        padding-right: 63px;
+
+
+    }
+
+    .head-text{
+        font-size: 20px;
+        padding-left: 37px;
+        padding-top: 30px;
+    }
+
+    .para-text{
+        font-size: 14px;
+        padding-left: 37px;
+        padding-right: 26px;
+        padding-top: 3px;
+        
+    }
+
+}

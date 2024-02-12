@@ -1,0 +1,127 @@
+.venue-wrapper-container {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 200px;
+  /* grid-auto-rows: minmax(100px, auto); */
+  padding: 1rem 6rem;
+  text-align: center;
+  margin-right: 26px;
+  color: white;
+  margin: 0px 10px;
+  padding-right: 100px;
+  margin-bottom: 40px;
+}
+
+.venue-three {
+  height: 200px;
+  padding-bottom: 20px;
+  color: white;
+  width: 400px;
+}
+
+.venue-head {
+  /* grid-column: 1;
+  grid-row: 2 / 5; */
+  margin-top: 100px;
+  height: 100px;
+  color: rgb(205, 202, 202);
+  font-size: 20px;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center align */
+  width: 400px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.venue-five {
+  /* grid-column: 2;
+  grid-row: 2/5; */
+  margin-top: 54px;
+  width: 750px;
+  padding-top: 30px;
+  color: white;
+}
+
+.venue-img-map {
+  height: 245px;
+  /* margin-left: 80px; */
+  width: 400px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16), 0 4px 10px rgba(0, 0, 0, 0.23);
+  margin-top: 0px;
+}
+
+.venue {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 48px;
+  margin-bottom: 2rem;
+  font-family: "Open Sans", sans-serif;
+  /* padding-bottom: 10px; */
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .venue-wrapper-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 0;
+    text-align: center;
+    justify-content: center;
+    /* margin-right: 110px; */
+    grid-gap: 0px;
+  }
+
+  .venue-img-map {
+    width: 18rem;
+    /* height: 20rem; */
+    margin-top: 30px;
+  }
+
+  .icon {
+    margin-bottom: 40px;
+    margin-right: 2px;
+    display: none;
+  }
+
+  .venue-three {
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+
+  .venue-head {
+    /* font-size: 20px;
+    margin-bottom: 2px;
+    margin-left: 4px; */
+    margin-top: 70px;
+    height: 100px;
+    color: rgb(205, 202, 202);
+    font-size: 20px;
+    display: inline-flex; /* Use flexbox */
+    align-items: center; /* Vertically center align */
+    width: auto;
+    align-items: center;
+  }
+
+  .venue-five {
+    margin-top: 20px; /* Adjust top margin as needed */
+    width: 100%; /* Ensure it takes the full width of the container */
+    max-width: 100%; /* Set a maximum width to prevent overflow */
+    overflow: hidden; /* Hide any content that overflows */
+    padding-top: 30px;
+    color: white;
+  }
+
+  .venue{
+    font-size: 40px;
+  }
+}

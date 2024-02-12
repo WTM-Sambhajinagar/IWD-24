@@ -1,0 +1,120 @@
+.iwd-section{
+    display: flex;
+    gap: 3em;
+    margin-left: 7%;
+    margin-right: 10%;
+    padding-top: 10%;
+    /* background-color: #040506; */
+}
+
+.iwd-section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.iwd-section img{
+    height: 60vh;
+}
+
+.location-ngp{
+    margin-left: 48%;
+    width: 50vw;
+}
+
+.iwd-section-1 h2{
+    font-size: 45px;
+    margin-bottom: 10%;
+}
+
+.iwd-section-1 p{
+    font-size: 18px;
+}
+
+@media (max-width: 1129px) {
+    .iwd-section {
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .location-ngp {
+        display: none;
+    }
+}
+
+@media (max-width: 786px) {
+   
+    .iwd-section {
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .iwd-section img {
+        max-height: 40vh;
+    }
+
+    .location-ngp {
+        display: none;
+    }
+
+    .iwd-section-1 h2 {
+        font-size: 35px;
+        text-align: center; 
+    }
+
+    .iwd-section-1 p {
+        font-size: 16px;
+        text-align: justify; 
+      
+    }
+}
+
+.community-section{
+    display: flex;
+    flex-direction: row;
+    gap: 2.2em;
+}
+
+.community-section img{
+    height: 20vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.community-section1{
+    display: flex;
+    flex-direction: row;
+    gap: 2.2em;
+}
+
+.community-section1 img{
+    height: 20vh;
+    width: 31vw;
+    border-radius: 20px;
+    border-image: radial-gradient(circle, #4285F4, #4FC3F7, #1CE8B7, #01BEA6);
+    /* border-image-slice: 5; */
+}
+
+.communitys{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.main h2{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 7%;
+}
