@@ -26,7 +26,7 @@ const Landing = () => {
 
       <div className="flex justify-between p-5 lg:p-10">
         <a
-          href="https://www.instagram.com/wtmnagpur/"
+          href="https://www.instagram.com/wtm_sambhajinagar/"
           target="_blank"
           rel="noopener noreferrer"
           className="z-10 lg:hidden"
@@ -34,7 +34,7 @@ const Landing = () => {
           <img src={logo} className="" />
         </a>
         <a
-          href="https://www.instagram.com/wtmnagpur/"
+          href="https://www.instagram.com/wtm_sambhajinagar/"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden lg:block lg:z-10"
@@ -42,7 +42,7 @@ const Landing = () => {
           <img src={dlogo} className=" " width={230} />
         </a>
         <h2 className="z-10 text-white font-product font-medium lg:text-3xl">
-          IWD Nagpur <span className="text-[#4FC3F7]">2024</span>
+          IWD Chh.Sambhajinagar <span className="text-[#4FC3F7]">2024</span>
         </h2>
       </div>
 
@@ -83,7 +83,7 @@ const Landing = () => {
             target="_blank" rel="noreferrer"
             className="text-white text-sm text-opacity-30 font-product"
           >
-            #wtmnagpur
+            #wtmsambhajinagar
           </a>
           <p className="text-white text-sm text-opacity-30 font-product">
             #iwdngp24
@@ -102,7 +102,7 @@ const Landing = () => {
             rel="noreferrer"
             className="text-white text-xl text-opacity-30 font-product"
           >
-            #wtmnagpur
+            #wtmsambhajinagar
           </a>
           <p className="text-white text-xl text-opacity-30 font-product">
             #iwdngp24
@@ -122,7 +122,7 @@ const Landing = () => {
             <img src={x} className="" />
           </a>
           <a
-            href="https://www.instagram.com/wtmnagpur/"
+            href="https://www.instagram.com/wtm_sambhajinagar/"
             target="_blank"
             rel="noopener noreferrer"
             className=""
@@ -131,7 +131,7 @@ const Landing = () => {
             <img src={insta} className="" />
           </a>
           <a
-            href="https://www.linkedin.com/company/wtmnagpur/mycompany/"
+            href="https://www.linkedin.com/company/women-techmakers-auranagabd/"
             target="_blank"
             rel="noopener noreferrer"
             className=""

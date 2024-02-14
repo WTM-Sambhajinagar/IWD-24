@@ -18,7 +18,7 @@ const Newsection = () => {
             in celebration of this moment.
           </p>
           <p className="text-white text-xl font-product">
-            IWD Nagpur event is a fusion of innovation, inspiration, and
+            IWD Chh.Sambhajinagar event is a fusion of innovation, inspiration, and
             diversity. This year, Women Techmakers is focused on elevating
             diverse voices with engaging skill-building sessions, inspiring
             stories, and impactful community initiatives. This celebration is

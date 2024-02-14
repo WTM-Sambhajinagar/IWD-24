@@ -10,8 +10,8 @@ const OnScroll = () => {
       <div className="flex flex-col items-center">
        
         <p className="text-white mt-5 font-product flex items-center">Reach out to us at </p>
-        <a href="mailto:womentechmakersnagpur@gmail.com" className="">
-          <p className="text-[#4FC3F7]">womentechmakersnagpur@gmail.com</p>
+        <a href="mailto:iwd@wtmsambhajinagar.co" className="">
+          <p className="text-[#4FC3F7]">iwd@wtmsambhajinagar.co</p>
         </a>
 
 
@@ -27,7 +27,7 @@ const OnScroll = () => {
             <img src={x} />
           </a>
           <a
-            href="https://www.instagram.com/wtmnagpur/"
+            href="https://www.instagram.com/wtm_sambhajinagar/"
             target="_blank"
             rel="noopener noreferrer"
             className=""
@@ -36,7 +36,7 @@ const OnScroll = () => {
             <img src={insta} />
           </a>
           <a
-            href="https://www.linkedin.com/company/wtmnagpur/mycompany/"
+            href="https://www.linkedin.com/company/women-techmakers-auranagabd/"
             target="_blank"
             rel="noopener noreferrer"
             className=""
