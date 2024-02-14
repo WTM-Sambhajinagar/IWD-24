@@ -25,9 +25,9 @@ const Venue = () => {
             referrerpolicy="no-referrer-when-downgrade"
           />*/}
         </div>
-        <div className="venue-five">
+        {/*<div className="venue-five">
           <Carousel />
-        </div>
+        </div>*/}
       </div>
     </div>
   );
