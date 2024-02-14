@@ -86,7 +86,7 @@ const Landing = () => {
             #wtmsambhajinagar
           </a>
           <p className="text-white text-sm text-opacity-30 font-product">
-            #iwdngp24
+            #iwd24
           </p>
           <p className="text-white text-sm text-opacity-30 font-product">
             #wtmiwd24
@@ -105,7 +105,7 @@ const Landing = () => {
             #wtmsambhajinagar
           </a>
           <p className="text-white text-xl text-opacity-30 font-product">
-            #iwdngp24
+            #iwd24
           </p>
           <p className="text-white text-xl text-opacity-30 font-product">
             #wtmiwd24
