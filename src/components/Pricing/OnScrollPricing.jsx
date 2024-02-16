@@ -88,7 +88,7 @@ const OnScrollPricing = () => {
     Community Lounge Activities
   </div>
   <div className=" container-os container-os-sm border-t-2 border-b-2 border-r-2 border-l-2 border-t-red border-b-blue border-r-green border-l-yellow rounded-mg" style={containerOsSmStyle}>
-    <a href="https://konfhub.com/iwdn2024" target="blank">
+    <a href="https://konfhub.com/iwd24smbj" target="blank">
       <img className="img1" src={RegisterImg} alt="img" />
     </a>
   </div>

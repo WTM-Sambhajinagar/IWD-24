@@ -1,5 +1,5 @@
-import iwd from "../../assets/images/what-is-iwd.svg";
-import location from "../../assets/images/location.svg";
+import iwd from "../../assets/images/Frame 648.svg";
+import location from "../../assets/images/location 1.svg";
 import "./iwd.css";
 
 const Newsection = () => {
@@ -28,7 +28,7 @@ const Newsection = () => {
         </div>
       </div>
       <a
-        href="https://konfhub.com/iwdn2024"
+        href="https://konfhub.com/iwd24smbj"
         target="_blank"
         rel="noopener noreferrer"
       >

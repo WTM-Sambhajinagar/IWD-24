@@ -31,7 +31,7 @@ const App = () => {
         <Grid />
       </section>
       <section>
-        <EcosystemPartner />
+        {/*<EcosystemPartner />*/}
       </section>
       <section>
         <MainPricing />

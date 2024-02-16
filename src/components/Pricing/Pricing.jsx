@@ -78,10 +78,10 @@ const Pricing = () => {
             Pass Name
           </div>
           <div className="col text-lg" style={textLgStyle}>
-            499 /-
+            250 /-
           </div>
           <div className="col">
-            <a href="https://konfhub.com/iwdn2024" target="blank">
+            <a href="https://konfhub.com/iwd24smbj" target="blank">
               <img
                 className="img1"
                 src={RegisterImg}

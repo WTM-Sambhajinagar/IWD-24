@@ -42,7 +42,7 @@ const Landing = () => {
           <img src={dlogo} className=" " width={230} />
         </a>
         <h2 className="z-10 text-white font-product font-medium lg:text-3xl">
-          IWD Chh.Sambhajinagar <span className="text-[#4FC3F7]">2024</span>
+          IWD'<span className="text-[#4FC3F7]">2024</span>
         </h2>
       </div>
 
@@ -71,7 +71,7 @@ const Landing = () => {
           </p>
         </div>
         <a
-          href="https://konfhub.com/iwdn2024"
+          href="https://konfhub.com/iwd24smbj"
           className="z-10 mt-8 lg:mt-20 lg:w-[13%]"
         >
           <img src={wbutton} width={initialButtonWidth} alt="Waitlist Button" />

@@ -13,7 +13,8 @@ const Allaccess = () => {
     <section className="pl-1 pr-40 mr-30 pt-5">
       <div className="pass text flex items-center font-bold text-lg pl-0">
         <img className="mr-5 h-6 " src={AccessImage} alt="img" />
-        All Access pass
+        Early Bird Pass
+        {/*All Access pass*/}
       </div>
 
       <div className="gridpass grid grid-cols-2 gap-x-8 gap-y-1 pl-10 py-5 text-left justify-start ">
@@ -42,7 +43,7 @@ const Allaccess = () => {
           Community Lounge Activities
         </div>
       </div>
-      
+
     </section>
   );
 };
