@@ -97,7 +97,6 @@ const Landing = () => {
       <div className="hidden lg:relative lg:z-10 lg:flex lg:flex-col lg:ml-10 lg:mt-20">
         <div className="flex flex-row gap-5">
           <a
-            href="https://chat.whatsapp.com/IoSWS99fdv4GeKIeJjoYzp"
             target="_blank"
             rel="noreferrer"
             className="text-white text-xl text-opacity-30 font-product"
