@@ -13,39 +13,42 @@ import EcosystemPartner from "./components/EcosystemPartner/EcosystemPartner";
 
 const App = () => {
   return (
-    <main className="mainSection">
-      <section className="relative">
-        <Landing />
-      </section>
-      <section>
-        <Iwd />
-      </section>
-      <section>
-        <Card />
-      </section>
-      <section>
-        <Theme />
-      </section>
-      <section>
-        <StyledText paragraphText=" We are speaking louder" />
-        <Grid />
-      </section>
-      <section>
-        {/*<EcosystemPartner />*/}
-      </section>
-      <section>
-        <MainPricing />
-      </section>
-      <section>
-        <Venue />
-      </section>
-      <section className="relative lg:hidden">
-        <OnScroll />
-      </section>
-      <section className="hidden md:flex">
-        <Footer />
-      </section>
-    </main>
+      <main className="mainSection">
+          <section className="relative">
+              <Landing/>
+          </section>
+          <section>
+              <Iwd/>
+          </section>
+          <section>
+              <Card/>
+          </section>
+          <section>
+              <Theme/>
+          </section>
+          <section>
+              <StyledText paragraphText=" We are speaking louder"/>
+              <Grid/>
+          </section>
+          <section>
+              <EcosystemPartner/>
+          </section>
+          {/*<section>*/}
+          {/*    <SpeakerCard/>*/}
+          {/*</section>*/}
+          <section>
+              <MainPricing/>
+          </section>
+          <section>
+              <Venue/>
+          </section>
+          <section className="relative lg:hidden">
+              <OnScroll/>
+          </section>
+          <section className="hidden md:flex">
+              <Footer/>
+          </section>
+      </main>
   );
 };
 
