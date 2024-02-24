@@ -51,13 +51,12 @@ const Landing = () => {
           Google&#39;s Women Techmakers
         </h2>
         <h1 className="text-white font-product text-3xl  mt-2 lg:hidden animate-pulse">
-          All Inclusive Developer
-        </h1>
-        <h1 className="text-white font-product text-3xl mt-1 lg:hidden animate-pulse">
-          Conference
+                  </h1>
+        <h1 className="text-white text-center font-product text-3xl mt-1 lg:hidden animate-pulse">
+          Open to all Tech & Startup Conference
         </h1>
         <h1 className="hidden lg:block lg:text-white lg:font-product lg:text-5xl lg:mt-5 animate-pulse">
-          All Inclusive Developer Conference
+          Biggest  Open to all Tech & Startup Conference
         </h1>
         {/* <p className="text-[#a7acad] mt-3 lg:text-xl md:text-xs">10th March 2024</p> */}
         <div className="flex items-center mt-3">
