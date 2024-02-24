@@ -78,7 +78,7 @@ const Pricing = () => {
             Pass Name
           </div>
           <div className="col text-lg" style={textLgStyle}>
-            250 /-
+            399 /-
           </div>
           <div className="col">
             <a href="https://konfhub.com/iwd24smbj" target="blank">
