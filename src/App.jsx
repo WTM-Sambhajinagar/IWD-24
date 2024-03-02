@@ -32,6 +32,9 @@ const App = () => {
               <StyledText paragraphText=" We are speaking louder"/>
               <Grid/>
           </section>
+          <br></br>
+          <br></br>
+          <br></br>
           <section>
               <Schedule/>
           </section>
