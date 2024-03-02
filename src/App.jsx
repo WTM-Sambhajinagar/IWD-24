@@ -21,15 +21,19 @@ const App = () => {
           <section>
               <Iwd/>
           </section>
-          <section>
-              <Card/>
-          </section>
+          {/*<section>*/}
+          {/*    <Card/>*/}
+          {/*</section>*/}
           <section>
               <Theme/>
           </section>
+
           <section>
               <StyledText paragraphText=" We are speaking louder"/>
               <Grid/>
+          </section>
+          <section>
+              <Schedule/>
           </section>
           <section>
               <EcosystemPartner/>
@@ -40,9 +44,7 @@ const App = () => {
           <section>
               <MainPricing/>
           </section>
-            <section>
-            <Schedule/>
-            </section>
+
           <section>
               <Venue/>
           </section>
