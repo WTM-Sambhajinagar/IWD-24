@@ -10,6 +10,7 @@ import Venue from "./components/Venue/Venue";
 import Card from "./components/communitysaying/cards";
 import "./App.css";
 import EcosystemPartner from "./components/EcosystemPartner/EcosystemPartner";
+import {Schedule} from "./components/Schedule/Schedule.jsx";
 
 const App = () => {
   return (
@@ -39,6 +40,9 @@ const App = () => {
           <section>
               <MainPricing/>
           </section>
+            <section>
+            <Schedule/>
+            </section>
           <section>
               <Venue/>
           </section>

@@ -14,20 +14,20 @@ const Venue = () => {
               <FaMapMarkerAlt />
             </span>
             <span className="venue-text">
-              Will be released soon.....
+                Venue: MGM University, Chh.Sambhajinagar (Aurangabad)
             </span>
           </h2>
 
-          {/*<iframe
+          <iframe
             className="venue-img-map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.659938617237!2d79.15659657503427!3d21.126119580547744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c731fab0e1d5%3A0x9c594338ee9836ca!2sSymbiosis%20University!5e0!3m2!1sen!2sin!4v1705334115882!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.9771044554705!2d75.35500902934571!3d19.883188668148122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba3a0ab7088b7%3A0xb5af50109d8a8cce!2sMGM%20University%20Aurangabad!5e0!3m2!1sen!2sin!4v1709382874140!5m2!1sen!2sin"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-          />*/}
+          />
         </div>
-        {/*<div className="venue-five">
+        <div className="venue-five">
           <Carousel />
-        </div>*/}
+        </div>
       </div>
     </div>
   );

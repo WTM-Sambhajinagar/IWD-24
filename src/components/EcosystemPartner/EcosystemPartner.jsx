@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import Sit_img from '../../assets/images/Sit_partner.jpg';
+import Sit_img from '../../assets/images/LogoMGM.svg';
 import '../EcosystemPartner/EcosystemPartner.css';
 
 function EcosystemP() {
@@ -14,14 +14,14 @@ function EcosystemP() {
 
   return (
       <div className='eco-header' >
-          {/*<div className='eco-heading'>*/}
-          {/*    <p>Ecosystem Partner</p>*/}
-          {/*</div>*/}
+          <div className='eco-heading'>
+              <p>Ecosystem Partner</p>
+          </div>
 
 
-          {/*<div className='eco-logo'>*/}
-          {/*    <img src={Sit_img} alt="Sit logo"/>*/}
-          {/*</div>*/}
+          <div className='eco-logo'>
+              <img src={Sit_img} alt="Sit logo"/>
+          </div>
 
           <div className='eco-heading'>
               <p>Community Partners</p>

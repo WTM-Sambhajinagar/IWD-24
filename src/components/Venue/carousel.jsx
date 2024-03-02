@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import image1 from "../../assets/images/image1.jpg";
-import image2 from "../../assets/images/image4resize.jpeg";
-import image3 from "../../assets/images/image5resize.jpg";
+import image1 from "../../assets/images/b1.jpg";
+import image2 from "../../assets/images/b2.png";
+// import image3 from "../../assets/images/image5resize.jpg";
 import "./Carousel.css"; // Import your custom CSS for styling
 
 function Carousel() {
-  const images = [image1, image2, image3];
+  const images = [image2, image2];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const nextImage = () => {
@@ -35,6 +35,7 @@ function Carousel() {
         <img
           src={images[currentImageIndex]}
           alt={`Image ${currentImageIndex + 1}`}
+
           className="carousel-image"
         />
         <button onClick={nextImage} className="carousel-button right">
