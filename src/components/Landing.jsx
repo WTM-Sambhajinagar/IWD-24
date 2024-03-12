@@ -2,7 +2,7 @@ import bgmb from "../assets/images/bg-mb.svg";
 import bgdesktop from "../assets/images/bg-d.svg";
 import logo from "../assets/images/logo.svg";
 import dlogo from "../assets/images/logo-d.svg";
-import wbutton from "../assets/images/waitlist-button.svg";
+import wbutton from "../assets/images/certificate.svg";
 import x from "../assets/images/x.svg";
 import insta from "../assets/images/insta.svg";
 import linkedin from "../assets/images/linkedin.svg";
@@ -70,7 +70,7 @@ const Landing = () => {
           </p>
         </div>
         <a
-          href="https://konfhub.com/iwd24smbj"
+          href="https://certificate.wtmsambhajinagar.co/"
           className="z-10 mt-8 lg:mt-20 lg:w-[13%]"
         >
           <img src={wbutton} width={initialButtonWidth} alt="Waitlist Button" />
