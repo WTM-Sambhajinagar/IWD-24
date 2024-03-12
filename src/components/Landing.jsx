@@ -70,7 +70,7 @@ const Landing = () => {
           </p>
         </div>
         <a
-          href="https://certificate.wtmsambhajinagar.co/"
+          href="https://iwdcert.wtmsambhajinagar.co/"
           className="z-10 mt-8 lg:mt-20 lg:w-[13%]"
         >
           <img src={wbutton} width={initialButtonWidth} alt="Waitlist Button" />
