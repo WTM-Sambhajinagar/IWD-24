@@ -16,8 +16,10 @@ function Footer() {
           <p className="mt-1  flex items-center text-white font-product text-xl pr-3">
             Reach out to us at{" "}
           </p>
-          <a href="mailto:iwd@wtmsambhajinagar.co" className="">
-            <p className="text-[#4FC3F7]">iwd@wtmsambhajinagar.co</p>
+          <a href="mailto:wtmchsambhajinagar@gmail.com
+" className="">
+            <p className="text-[#4FC3F7]">wtmchsambhajinagar@gmail.com
+</p>
           </a>
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">

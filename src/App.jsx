@@ -24,33 +24,33 @@ const App = () => {
           {/*<section>*/}
           {/*    <Card/>*/}
           {/*</section>*/}
-          <section>
-              <Theme/>
-          </section>
-
-          <section>
-              <StyledText paragraphText=" We are speaking louder"/>
-              <Grid/>
-          </section>
-          <br></br>
-          <br></br>
-          <br></br>
-          <section>
-              <Schedule/>
-          </section>
-          <section>
-              <EcosystemPartner/>
-          </section>
           {/*<section>*/}
-          {/*    <SpeakerCard/>*/}
+          {/*    <Theme/>*/}
           {/*</section>*/}
-          <section>
-              <MainPricing/>
-          </section>
 
-          <section>
-              <Venue/>
-          </section>
+          {/*<section>*/}
+          {/*    <StyledText paragraphText=" We are speaking louder"/>*/}
+          {/*    <Grid/>*/}
+          {/*</section>*/}
+          {/*<br></br>*/}
+          {/*<br></br>*/}
+          {/*<br></br>*/}
+          {/*<section>*/}
+          {/*    <Schedule/>*/}
+          {/*</section>*/}
+          {/*<section>*/}
+          {/*    <EcosystemPartner/>*/}
+          {/*</section>*/}
+          {/*/!*<section>*!/*/}
+          {/*/!*    <SpeakerCard/>*!/*/}
+          {/*/!*</section>*!/*/}
+          {/*<section>*/}
+          {/*    <MainPricing/>*/}
+          {/*</section>*/}
+
+          {/*<section>*/}
+          {/*    <Venue/>*/}
+          {/*</section>*/}
           <section className="relative lg:hidden">
               <OnScroll/>
           </section>

@@ -42,7 +42,7 @@ const Landing = () => {
           <img src={dlogo} className=" " width={230} />
         </a>
         <h2 className="z-10 text-white font-product font-medium lg:text-3xl">
-          IWD'<span className="text-[#4FC3F7]">2024</span>
+          IWD'<span className="text-[#4FC3F7]">2025</span>
         </h2>
       </div>
 
@@ -58,7 +58,7 @@ const Landing = () => {
         <h1 className="hidden lg:block lg:text-white lg:font-product lg:text-5xl lg:mt-5 animate-pulse">
           Biggest  Open to all Tech & Startup Conference
         </h1>
-        {/* <p className="text-[#a7acad] mt-3 lg:text-xl md:text-xs">10th March 2024</p> */}
+        {/* <p className="text-[#a7acad] mt-3 lg:text-xl md:text-xs">10th March 2025</p> */}
         <div className="flex items-center mt-3">
           <img
             src={calendarIcon}
@@ -66,15 +66,15 @@ const Landing = () => {
             className="w-6 h-6 mr-2"
           />
           <p className="text-[#a7acad] lg:text-xl md:text-xs">
-            10th March 2024
+            TO BE ANNOUNCED
           </p>
         </div>
-        <a
-          href="https://iwdcert.wtmsambhajinagar.co/"
-          className="z-10 mt-8 lg:mt-20 lg:w-[13%]"
-        >
-          <img src={wbutton} width={initialButtonWidth} alt="Waitlist Button" />
-        </a>
+        {/*<a*/}
+        {/*  href="https://iwdcert.wtmsambhajinagar.co/"*/}
+        {/*  className="z-10 mt-8 lg:mt-20 lg:w-[13%]"*/}
+        {/*>*/}
+        {/*  <img src={wbutton} width={initialButtonWidth} alt="Waitlist Button" />*/}
+        {/*</a>*/}
 
         {/* <div className=" mt-4 lg:hidden flex flex-row gap-2">
           <a
@@ -96,14 +96,17 @@ const Landing = () => {
       <div className="hidden lg:relative lg:z-10 lg:flex lg:flex-col lg:ml-10 lg:mt-20">
         <div className="flex flex-row gap-5">
           <a
-            target="_blank"
-            rel="noreferrer"
-            className="text-white text-xl text-opacity-30 font-product"
+              target="_blank"
+              rel="noreferrer"
+              className="text-white text-xl text-opacity-30 font-product"
           >
-            #wtmsambhajinagar
+            #redefilnepossible
           </a>
           <p className="text-white text-xl text-opacity-30 font-product">
             #iwd24
+          </p>
+          <p className="text-white text-xl text-opacity-30 font-product">
+            #wtmsambhajinagar
           </p>
           <p className="text-white text-xl text-opacity-30 font-product">
             #wtmiwd24
@@ -111,7 +114,7 @@ const Landing = () => {
         </div>
         <div className="flex flex-row gap-5 mt-10">
           <a
-            href="https://twitter.com/wtmnagpur?lang=en"
+              href="https://twitter.com/wtmnagpur?lang=en"
             target="_blank"
             rel="noopener noreferrer"
             className=""
